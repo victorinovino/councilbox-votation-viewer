@@ -1,0 +1,26 @@
+/*Diseño para el Index.js*/
+
+.count {
+   margin: 12px 0; 
+   color: var(--text-color-secondary);
+   
+}
+
+.inputContainer {
+   margin-bottom: 30px;
+}
+
+@media screen and (min-width:720px) {
+   .inputContainer {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .count {
+      flex: 1;
+   }
+
+   .input {
+      flex: 0.75;
+   }
+}
